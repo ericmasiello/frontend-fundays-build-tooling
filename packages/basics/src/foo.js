@@ -1,1 +1,5 @@
-// TODO: add some ES6+ code here
+import React from 'react';
+
+export const foo = () => console.log('whatever');
+
+export const MyComponent = () => <div>Hi there</div>;

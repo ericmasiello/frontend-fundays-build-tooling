@@ -1,6 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
-import styles from './Example.module.scss';
+// import styles from './Example.module.scss';
+
+const styles = {
+  example: 'Example-css',
+};
 
 function Example(props) {
   const { className, as: Component = 'div', ...rest } = props;

@@ -4,6 +4,10 @@
   "description": "",
   "author": "ericmasiello",
   "license": "SEE LICENSE IN LICENSE.md",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "storybook": "start-storybook",
     "lint": "eslint src/ --cache",
