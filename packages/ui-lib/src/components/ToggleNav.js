@@ -1,11 +1,7 @@
 import React, { createContext, useState, useContext, useMemo, useEffect, useCallback, useRef } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-// import styles from './ToggleNav.module.scss';
-
-const styles = {
-  example: 'ToggleNav-css',
-};
+import styles from './ToggleNav.module.scss';
 
 const callFnsInOrder = (...fns) => {
   return (event) => {
